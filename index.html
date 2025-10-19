@@ -1,246 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Dropshipping Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <title>Nomad Leather – Dropshipping Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-    <div class="area">
-        <div class="neverending">
-            <div class="container">
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>About Me</h2>
-                        <p>Learn more about me and what I did in the past</p>
-                        <a href="#about">Read More</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>About my products</h2>
-                        <p>Learn about our Products and why we chose them</p>
-                        <a href="#learn">Read More</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>Products</h2>
-                        <p>See what high-quality products I sell</p>
-                        <a href="#product">Read More</a>
-                    </div>
-                </div>
-            </div>
+    <header class="site-header">
+        <div class="brand">
+            <span class="brand__badge">NL</span>
+            <span class="brand__name">Nomad Leather</span>
         </div>
-        <div style="height: 100px;"></div>
-    </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <i class="uil uil-bars"></i>
+        </button>
+        <nav class="site-nav" aria-label="Primary">
+            <a class="site-nav__link" href="#about">About</a>
+            <a class="site-nav__link" href="#collections">Collections</a>
+            <a class="site-nav__link" href="#why">Why us</a>
+            <a class="site-nav__link" href="#products">Products</a>
+        </nav>
+    </header>
 
-    <div id="about">
-        <div style="height: 45px;"></div>
-        <p style="
-    text-align: center;
-    background: -webkit-linear-gradient(left, #ff00d885, #ff0058);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 60px;
-    font-weight: bold;
-  ">About Me</p>
-        <div class="row">
-            <div class="container">
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <p>Description</p>
+    <main>
+        <section class="hero" id="top">
+            <div class="hero__content">
+                <p class="eyebrow">Timeless accessories for modern explorers</p>
+                <h1>Find the leather carry that fits your next adventure.</h1>
+                <p class="hero__lead">Every piece in our collection is curated for durability, sustainable craftsmanship and a premium feel your customers will love.</p>
+                <div class="hero__actions">
+                    <a class="btn btn--primary" href="#products">Browse Products</a>
+                    <a class="btn btn--ghost" href="#why">Why customers choose us</a>
+                </div>
+            </div>
+            <div class="hero__media" aria-hidden="true">
+                <div class="hero-card">
+                    <img src="assets/imgs/Card2/bag1.png" alt="Leather backpack" loading="lazy">
+                    <div class="hero-card__body">
+                        <h3>Weekender Backpack</h3>
+                        <p>Hand-crafted full grain leather with smart storage for tech and travel essentials.</p>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <p>Description</p>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section__header">
+                <p class="eyebrow">About Nomad Leather</p>
+                <h2>A boutique dropshipping brand built on trust.</h2>
+                <p class="section__lead">From supplier vetting to fulfilment, we take the heavy lifting off your shoulders. Our mission is to help merchants scale with premium products and conversion-first experiences.</p>
+            </div>
+            <div class="grid grid--three">
+                <article class="card">
+                    <i class="uil uil-globe card__icon"></i>
+                    <h3>Ethically sourced</h3>
+                    <p>We partner with certified workshops that follow fair trade practices and environmentally responsible tanning processes.</p>
+                </article>
+                <article class="card">
+                    <i class="uil uil-box card__icon"></i>
+                    <h3>Fast fulfilment</h3>
+                    <p>Global warehouses and automated routing ensure two to five day delivery times for your customers worldwide.</p>
+                </article>
+                <article class="card">
+                    <i class="uil uil-smile card__icon"></i>
+                    <h3>Conversion-ready assets</h3>
+                    <p>We provide copy, photos and video snippets tailored for ads, product pages and social launches.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--accent" id="collections">
+            <div class="section__header">
+                <p class="eyebrow">Collections</p>
+                <h2>Curated leather goods for every journey.</h2>
+                <p class="section__lead">Each collection focuses on a specific customer moment – from daily commutes to weekend escapes.</p>
+            </div>
+            <div class="collection">
+                <article class="collection-card">
+                    <img src="assets/imgs/Card1/bag2.png" alt="Leather travel bag" loading="lazy">
+                    <h3>Transit Essentials</h3>
+                    <p>Carry-ons and travel wallets designed to glide through airport security and board rooms alike.</p>
+                </article>
+                <article class="collection-card">
+                    <img src="assets/imgs/Card3/bag1.png" alt="Leather purse" loading="lazy">
+                    <h3>City Statements</h3>
+                    <p>Compact silhouettes with bold hardware accents for urban explorers and night-out plans.</p>
+                </article>
+                <article class="collection-card">
+                    <img src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?auto=format&fit=crop&w=900&q=80" alt="Leather gadget organizer" loading="lazy">
+                    <h3>Work &amp; Tech</h3>
+                    <p>Organizers and sleeves that protect tech while keeping a refined aesthetic in meetings.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="why">
+            <div class="section__header">
+                <p class="eyebrow">Why merchants love us</p>
+                <h2>We obsess over the details so you can focus on growth.</h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline__item">
+                    <div class="timeline__badge">01</div>
+                    <div>
+                        <h3>Quality controls on autopilot</h3>
+                        <p>In-person inspections on every production run keep defect rates below 0.6%.</p>
                     </div>
-                </div>
-            </div>
-
-        </div>
-        <div style="height: 150px;"></div>
-    </div>
-    <div class="row">
-        <div class="container">
-            <div class="box">
-                <span></span>
-                <div class="content">
-                    <p>Description</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="box">
-                <span></span>
-                <div class="content">
-                    <p>Description</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="learn">
-        <div style="height: 20px;"></div>
-        <p style="
-    text-align: center;
-    background: -webkit-linear-gradient(left, #ff00d885, #ff0058);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 60px;
-    font-weight: bold;
-  ">Why we chose these Products</p>
-        <div style="height: 100px;"></div>
-        <div class="row2">
-            <div class="container">
-                <div class="btn1"><a>Description</a></div>
-                <div class="btn1"><a>Description</a></div>
-                <div class="btn1"><a>Description</a></div>
-            </div>
-        </div>
-        <div style="height: 170px;"></div>
-    </div>
-
-    <div id="product">
-        <p style="text-align: center; background: -webkit-linear-gradient(left, #ff00d885, #ff0058); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 60px; font-weight: bold;">Products</p>
-        <div style="height: 50px;"></div>
-        <div class="row" style="display: flex;align-items: center;">
-            <div class="nft">
-                <div class='main'>
-                    <img class='tokenImage' src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="NFT" />
-                    <h2>Product 1</h2>
-                    <p class='description'>Description</p>
-                    <div class='tokenInfo'>
-                        <div class="price">
-                            <ins></ins>
-                            <p>5.00 $</p>
-                        </div>
-                        <div class="duration">
-                            <ins></ins>
-                            <p><a href="">Buy Here</a></p>
-                        </div>
+                </article>
+                <article class="timeline__item">
+                    <div class="timeline__badge">02</div>
+                    <div>
+                        <h3>Mobile-first landing pages</h3>
+                        <p>Conversion-optimized themes and product blocks that feel fast and native on every device.</p>
                     </div>
-                    <hr />
-                </div>
-            </div>
-            <div class="nft">
-                <div class='main'>
-                    <img class='tokenImage' src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="NFT" />
-                    <h2>Product 2</h2>
-                    <p class='description'>Description</p>
-                    <div class='tokenInfo'>
-                        <div class="price">
-                            <ins></ins>
-                            <p>5.00 $</p>
-                        </div>
-                        <div class="duration">
-                            <ins></ins>
-                            <p><a href="">Buy Here</a></p>
-                        </div>
+                </article>
+                <article class="timeline__item">
+                    <div class="timeline__badge">03</div>
+                    <div>
+                        <h3>Always-on optimisation</h3>
+                        <p>Weekly A/B testing on pricing, bundles and creatives to keep your store ahead of trends.</p>
                     </div>
-                    <hr />
-                </div>
+                </article>
             </div>
-            <div class="nft">
-                <div class='main'>
-                    <img class='tokenImage' src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="NFT" />
-                    <h2>Product 3</h2>
-                    <p class='description'>Description</p>
-                    <div class='tokenInfo'>
-                        <div class="price">
-                            <ins></ins>
-                            <p>5.00 $</p>
-                        </div>
-                        <div class="duration">
-                            <ins></ins>
-                            <p><a href="">Buy Here</a></p>
-                        </div>
-                    </div>
-                    <hr />
-                </div>
+        </section>
+
+        <section class="section section--dark" id="products">
+            <div class="section__header">
+                <p class="eyebrow">Products</p>
+                <h2>Signature pieces your customers will come back for.</h2>
             </div>
-        </div>
-
-        <div class="row" style="display: flex;align-items: center;">
-            <div class="cards-container">
-
-                <div class="product-card">
-                    <div class="img-container">
-                        <div class="title-container">
-                            <h2>Leather Travel Bag</h2>
-                        </div>
-                        <img class="Image1" src="assets/imgs/Card1/bag2.png" alt="Bag 1">
-
-                        <ul class="product-color">
-                            <li onclick="ImageSwap('assets/imgs/Card1/bag1.png','Image1')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card1/bag2.png','Image1')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card1/bag3.png','Image1')"></li>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-card__media">
+                        <img class="product-card__image Image1" src="assets/imgs/Card1/bag2.png" alt="Leather travel bag" loading="lazy">
+                        <ul class="swatch-list" data-target="Image1">
+                            <li aria-label="Midnight blue" style="--swatch-color:#2b3856" data-image="assets/imgs/Card1/bag1.png"></li>
+                            <li aria-label="Cognac" style="--swatch-color:#7a5230" data-image="assets/imgs/Card1/bag2.png"></li>
+                            <li aria-label="Onyx" style="--swatch-color:#111" data-image="assets/imgs/Card1/bag3.png"></li>
                         </ul>
-
-                        <a href="" class="cart-button">
-                            Add To Cart
-                            <i class="uil uil-shopping-cart  cart-icon"></i>
-                        </a>
                     </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="img-container">
-                        <div class="title-container">
-                            <h2>Leather Backpack</h2>
+                    <div class="product-card__body">
+                        <h3>Leather Travel Bag</h3>
+                        <p>Modular compartments, trolley sleeve and water-resistant lining built for week-long trips.</p>
+                        <div class="product-card__footer">
+                            <span class="price">$245.00</span>
+                            <a class="btn btn--ghost" href="#">Buy now</a>
                         </div>
-                        <img class="Image2" src="assets/imgs/Card2/bag1.png" alt="Bag 1">
-
-                        <ul class="product-color">
-                            <li onclick="ImageSwap('assets/imgs/Card2/bag1.png','Image2')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card2/bag2.png','Image2')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card2/bag3.png','Image2')"></li>
-                        </ul>
-
-                        <a href="" class="cart-button">
-                            Add To Cart
-                            <i class="uil uil-shopping-cart  cart-icon"></i>
-                        </a>
                     </div>
-                </div>
+                </article>
 
-                <div class="product-card">
-                    <div class="img-container">
-                        <div class="title-container">
-                            <h2>Leather Purse</h2>
+                <article class="product-card">
+                    <div class="product-card__media">
+                        <img class="product-card__image Image2" src="assets/imgs/Card2/bag1.png" alt="Leather backpack" loading="lazy">
+                        <ul class="swatch-list" data-target="Image2">
+                            <li aria-label="Chestnut" style="--swatch-color:#6b3f1d" data-image="assets/imgs/Card2/bag1.png"></li>
+                            <li aria-label="Slate" style="--swatch-color:#3d4852" data-image="assets/imgs/Card2/bag2.png"></li>
+                            <li aria-label="Sand" style="--swatch-color:#d1b59a" data-image="assets/imgs/Card2/bag3.png"></li>
+                        </ul>
+                    </div>
+                    <div class="product-card__body">
+                        <h3>Leather Backpack</h3>
+                        <p>Breathable mesh support and hidden zippers keep gear safe without sacrificing comfort.</p>
+                        <div class="product-card__footer">
+                            <span class="price">$189.00</span>
+                            <a class="btn btn--ghost" href="#">Buy now</a>
                         </div>
-                        <img class="Image3" src="assets/imgs/Card3/bag1.png" alt="Bag 1">
-
-                        <ul class="product-color">
-                            <li onclick="ImageSwap('assets/imgs/Card3/bag1.png','Image3')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card3/bag2.png','Image3')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card3/bag3.png','Image3')"></li>
-                        </ul>
-
-                        <a href="" class="cart-button">
-                            Add To Cart
-                            <i class="uil uil-shopping-cart  cart-icon"></i>
-                        </a>
                     </div>
-                </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-card__media">
+                        <img class="product-card__image Image3" src="assets/imgs/Card3/bag1.png" alt="Leather purse" loading="lazy">
+                        <ul class="swatch-list" data-target="Image3">
+                            <li aria-label="Rosewood" style="--swatch-color:#7b3940" data-image="assets/imgs/Card3/bag1.png"></li>
+                            <li aria-label="Pearl" style="--swatch-color:#f2e4da" data-image="assets/imgs/Card3/bag2.png"></li>
+                            <li aria-label="Obsidian" style="--swatch-color:#121212" data-image="assets/imgs/Card3/bag3.png"></li>
+                        </ul>
+                    </div>
+                    <div class="product-card__body">
+                        <h3>Leather Purse</h3>
+                        <p>Elegant profile with RFID shielding and customisable straps for on-the-go styling.</p>
+                        <div class="product-card__footer">
+                            <span class="price">$129.00</span>
+                            <a class="btn btn--ghost" href="#">Buy now</a>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </div>
-    </div>
-    </div>
-    </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> Nomad Leather. Built for ambitious dropshippers.</p>
+    </footer>
 </body>
-
 </html>
