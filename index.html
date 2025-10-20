@@ -3,244 +3,218 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Dropshipping Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <title>Dropshipping Collective</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
 </head>
 
 <body>
-    <div class="area">
-        <div class="neverending">
-            <div class="container">
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>About Me</h2>
-                        <p>Learn more about me and what I did in the past</p>
-                        <a href="#about">Read More</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>About my products</h2>
-                        <p>Learn about our Products and why we chose them</p>
-                        <a href="#learn">Read More</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <h2>Products</h2>
-                        <p>See what high-quality products I sell</p>
-                        <a href="#product">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px;"></div>
-    </div>
-
-    <div id="about">
-        <div style="height: 45px;"></div>
-        <p style="
-    text-align: center;
-    background: -webkit-linear-gradient(left, #ff00d885, #ff0058);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 60px;
-    font-weight: bold;
-  ">About Me</p>
-        <div class="row">
-            <div class="container">
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <p>Description</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="box">
-                    <span></span>
-                    <div class="content">
-                        <p>Description</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div style="height: 150px;"></div>
-    </div>
-    <div class="row">
+    <header class="site-header">
         <div class="container">
-            <div class="box">
-                <span></span>
-                <div class="content">
-                    <p>Description</p>
-                </div>
-            </div>
+            <a class="brand" href="#top">Dropshipping Collective</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="uil uil-bars"></span>
+            </button>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="#why">Why Us</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-        <div class="container">
-            <div class="box">
-                <span></span>
-                <div class="content">
-                    <p>Description</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </header>
 
-    <div id="learn">
-        <div style="height: 20px;"></div>
-        <p style="
-    text-align: center;
-    background: -webkit-linear-gradient(left, #ff00d885, #ff0058);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 60px;
-    font-weight: bold;
-  ">Why we chose these Products</p>
-        <div style="height: 100px;"></div>
-        <div class="row2">
+    <main id="top">
+        <section class="hero">
             <div class="container">
-                <div class="btn1"><a>Description</a></div>
-                <div class="btn1"><a>Description</a></div>
-                <div class="btn1"><a>Description</a></div>
+                <div class="hero-content">
+                    <p class="eyebrow">Premium dropshipping for modern brands</p>
+                    <h1>Your all-in-one partner for curated lifestyle products.</h1>
+                    <p class="lead">We help creators and entrepreneurs launch products faster with flexible logistics, 
+                        reliable fulfillment and storytelling that converts.</p>
+                    <div class="cta-group">
+                        <a class="btn primary" href="#products">View catalog</a>
+                        <a class="btn ghost" href="#why">How it works</a>
+                    </div>
+                </div>
+                <div class="hero-visual" role="presentation"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <header class="section-header">
+                    <p class="eyebrow">About us</p>
+                    <h2>Logistics experts with a creator-first mindset</h2>
+                    <p>Our collective blends experience in supply chain management, branding and customer experience to help 
+                        you scale without sacrificing quality.</p>
+                </header>
+                <div class="card-grid">
+                    <article class="info-card">
+                        <h3>Global reach</h3>
+                        <p>Warehouses in North America, Europe and Asia ensure fast delivery to your audience wherever they 
+                            are.</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>Curated catalog</h3>
+                        <p>We handpick timeless lifestyle essentials with verified manufacturers and responsive inventory 
+                            planning.</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>Growth partners</h3>
+                        <p>Our team supports your launch with ready-to-use creative assets, product pages and automated 
+                            marketing flows.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="why" class="section why">
+            <div class="container split">
+                <div>
+                    <header class="section-header">
+                        <p class="eyebrow">Why brands choose us</p>
+                        <h2>Everything you need to run a smooth dropshipping operation.</h2>
+                    </header>
+                    <ul class="feature-list">
+                        <li>
+                            <span class="icon uil uil-truck"></span>
+                            <div>
+                                <h3>Fulfillment handled</h3>
+                                <p>24/7 order tracking, automatic returns, branded packaging and sustainable shipping options.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon uil uil-chart-growth"></span>
+                            <div>
+                                <h3>Actionable analytics</h3>
+                                <p>Dashboards highlight best sellers, margins and customer happiness so you can act quickly.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon uil uil-headphones"></span>
+                            <div>
+                                <h3>Dedicated support</h3>
+                                <p>Our specialists partner with you from onboarding to scale, ensuring you never ship alone.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <aside class="metric-panel">
+                    <p class="metric-title">Performance snapshot</p>
+                    <dl>
+                        <div>
+                            <dt>99.2%</dt>
+                            <dd>On-time delivery rate</dd>
+                        </div>
+                        <div>
+                            <dt>48 hrs</dt>
+                            <dd>Average launch timeline</dd>
+                        </div>
+                        <div>
+                            <dt>120+</dt>
+                            <dd>Creator brands supported</dd>
+                        </div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
+
+        <section id="products" class="section products">
+            <div class="container">
+                <header class="section-header">
+                    <p class="eyebrow">Signature collection</p>
+                    <h2>Hero products ready to add to your storefront</h2>
+                    <p>Customize colors, packaging and messaging. Every item is photographed and tested before reaching your 
+                        customers.</p>
+                </header>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <img src="assets/imgs/Card1/bag2.png" alt="Leather travel bag">
+                        <div class="product-content">
+                            <h3>Leather Travel Bag</h3>
+                            <p>Carry-on approved with modular pockets and stain-resistant lining.</p>
+                            <div class="product-meta">
+                                <span class="price">$129</span>
+                                <a class="link" href="#contact">Add to line</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="assets/imgs/Card2/bag2.png" alt="Leather backpack">
+                        <div class="product-content">
+                            <h3>Leather Backpack</h3>
+                            <p>Sleek silhouette with padded laptop sleeve and water-resistant zippers.</p>
+                            <div class="product-meta">
+                                <span class="price">$149</span>
+                                <a class="link" href="#contact">Add to line</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="assets/imgs/Card3/bag3.png" alt="Leather purse">
+                        <div class="product-content">
+                            <h3>Leather Purse</h3>
+                            <p>Compact crossbody with adjustable strap and premium brass hardware.</p>
+                            <div class="product-meta">
+                                <span class="price">$98</span>
+                                <a class="link" href="#contact">Add to line</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container split">
+                <div>
+                    <h2>Scale your brand with a partner that ships quality.</h2>
+                    <p>Share your catalog or campaign goals and our team will craft a tailored plan within 24 hours.</p>
+                </div>
+                <a class="btn primary" href="#contact">Book a discovery call</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <header class="section-header">
+                    <p class="eyebrow">Let’s collaborate</p>
+                    <h2>Tell us about your next launch</h2>
+                    <p>Send us a quick note and we’ll follow up with logistics details, recommended products and sample 
+                        timelines.</p>
+                </header>
+                <form class="contact-form">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" placeholder="Your full name" required>
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" placeholder="you@example.com" required>
+                    </label>
+                    <label class="full">
+                        <span>Project details</span>
+                        <textarea name="message" rows="4" placeholder="Share your product ideas or existing store link" required></textarea>
+                    </label>
+                    <button type="submit" class="btn primary">Request proposal</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Dropshipping Collective. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#why">Services</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
-        <div style="height: 170px;"></div>
-    </div>
-
-    <div id="product">
-        <p style="text-align: center; background: -webkit-linear-gradient(left, #ff00d885, #ff0058); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 60px; font-weight: bold;">Products</p>
-        <div style="height: 50px;"></div>
-        <div class="row" style="display: flex;align-items: center;">
-            <div class="nft">
-                <div class='main'>
-                    <img class='tokenImage' src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="NFT" />
-                    <h2>Product 1</h2>
-                    <p class='description'>Description</p>
-                    <div class='tokenInfo'>
-                        <div class="price">
-                            <ins></ins>
-                            <p>5.00 $</p>
-                        </div>
-                        <div class="duration">
-                            <ins></ins>
-                            <p><a href="">Buy Here</a></p>
-                        </div>
-                    </div>
-                    <hr />
-                </div>
-            </div>
-            <div class="nft">
-                <div class='main'>
-                    <img class='tokenImage' src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="NFT" />
-                    <h2>Product 2</h2>
-                    <p class='description'>Description</p>
-                    <div class='tokenInfo'>
-                        <div class="price">
-                            <ins></ins>
-                            <p>5.00 $</p>
-                        </div>
-                        <div class="duration">
-                            <ins></ins>
-                            <p><a href="">Buy Here</a></p>
-                        </div>
-                    </div>
-                    <hr />
-                </div>
-            </div>
-            <div class="nft">
-                <div class='main'>
-                    <img class='tokenImage' src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="NFT" />
-                    <h2>Product 3</h2>
-                    <p class='description'>Description</p>
-                    <div class='tokenInfo'>
-                        <div class="price">
-                            <ins></ins>
-                            <p>5.00 $</p>
-                        </div>
-                        <div class="duration">
-                            <ins></ins>
-                            <p><a href="">Buy Here</a></p>
-                        </div>
-                    </div>
-                    <hr />
-                </div>
-            </div>
-        </div>
-
-        <div class="row" style="display: flex;align-items: center;">
-            <div class="cards-container">
-
-                <div class="product-card">
-                    <div class="img-container">
-                        <div class="title-container">
-                            <h2>Leather Travel Bag</h2>
-                        </div>
-                        <img class="Image1" src="assets/imgs/Card1/bag2.png" alt="Bag 1">
-
-                        <ul class="product-color">
-                            <li onclick="ImageSwap('assets/imgs/Card1/bag1.png','Image1')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card1/bag2.png','Image1')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card1/bag3.png','Image1')"></li>
-                        </ul>
-
-                        <a href="" class="cart-button">
-                            Add To Cart
-                            <i class="uil uil-shopping-cart  cart-icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="img-container">
-                        <div class="title-container">
-                            <h2>Leather Backpack</h2>
-                        </div>
-                        <img class="Image2" src="assets/imgs/Card2/bag1.png" alt="Bag 1">
-
-                        <ul class="product-color">
-                            <li onclick="ImageSwap('assets/imgs/Card2/bag1.png','Image2')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card2/bag2.png','Image2')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card2/bag3.png','Image2')"></li>
-                        </ul>
-
-                        <a href="" class="cart-button">
-                            Add To Cart
-                            <i class="uil uil-shopping-cart  cart-icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="img-container">
-                        <div class="title-container">
-                            <h2>Leather Purse</h2>
-                        </div>
-                        <img class="Image3" src="assets/imgs/Card3/bag1.png" alt="Bag 1">
-
-                        <ul class="product-color">
-                            <li onclick="ImageSwap('assets/imgs/Card3/bag1.png','Image3')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card3/bag2.png','Image3')"></li>
-                            <li onclick="ImageSwap('assets/imgs/Card3/bag3.png','Image3')"></li>
-                        </ul>
-
-                        <a href="" class="cart-button">
-                            Add To Cart
-                            <i class="uil uil-shopping-cart  cart-icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
+    </footer>
 </body>
 
 </html>
